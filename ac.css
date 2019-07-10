@@ -1,0 +1,93 @@
+@import"compass/css3";
+<style>
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: darken(#C0C0C0,2%);
+}
+
+
+.image:hover .overlay {
+	  background: darken(deepskyblue, 2%);
+
+}
+
+a:hover
+{
+background-color:yellow;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#spinner{
+            margin-left: 625px;
+            margin-top: 50px;
+            font-size: 500%;
+}
+hgroup{
+	color: white;
+}
+h2{
+
+	color: white;
+}
+h4{
+	color: white;
+}
+h3{
+	color: white;
+}
+
+footer{
+	color: white;
+}
+
+*{
+	background-color: black;
+	font-family: monospace;
+
+}
+.p-text{
+	font-family: sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+    font-size: 200%;
+
+}
+
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+    width: 1000px;  /* Or whatever */
+    height: 300px; /* Or whatever */
+    margin: auto;
+
+
+}
+
+.flex-child{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+    width: 800px;  /* Or whatever */
+    height: 200px; /* Or whatever */
+    margin: auto;
+    
+
+}
+</style>
